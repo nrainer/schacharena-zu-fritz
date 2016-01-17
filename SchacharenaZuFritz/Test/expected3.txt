@@ -1,0 +1,9 @@
+﻿[Event "Partie"]
+[Site "www.schacharena.de"]
+[Date "????.??.??"]
+[Round "?"]
+[White "kreideturm"]
+[Black "Scharrelaar"]
+[Result "*"]
+
+1. e2e4 d7d6 2. Ng1f3 c7c6 3. d2d4 Ng8f6 4. Nb1c3 Bc8g4 5. h2h3 Bg4h5 6. Bc1e3 Nb8d7 7. g2g4 Bh5g6 8. Bf1d3 e7e5 9. d4xe5 Nd7xe5 10. Nf3h4 Nf6xe4 11. Nc3xe4 Bg6xe4 12. Bd3xe4 Qd8xh4 13. Qd1e2 Qh4e7 14. 0-0-0 g7g6 15. f2f4 Ne5d7 16. Be4g2 Bf8g7 17. Qe2d3 0-0 18. Rh1e1 Qe7f6 19. c2c3 Nd7c5 20. Qd3xd6 Qf6xd6 21. Rd1xd6 Nc5e6 22. f4f5 Ne6c7 23. f5f6 Bg7xf6 24. Rd6xf6 Nc7d5 25. Bg2xd5 c6xd5 26. Rf6d6 b7b6 27. Rd6xd5 Ra8e8 28. Be3f2 Re8c8 29. Bf2d4 f7f5 30. Rd5d7 Rf8f7 31. Re1e7 Rc8f8 32. g4xf5 g6xf5 33. Rd7xa7 f5f4 34. Kc1d1 f4f3 35. Kd1e1 

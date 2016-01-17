@@ -1,0 +1,9 @@
+﻿[Event "Partie"]
+[Site "www.schacharena.de"]
+[Date "????.??.??"]
+[Round "?"]
+[White "nachtfalke"]
+[Black "windstaerke1111"]
+[Result "*"]
+
+1. e2e4 e7e5 2. Ng1f3 d7d6 3. h2h3 Nb8c6 4. c2c3 Ng8f6 5. Qd1c2 Bf8e7 6. Bf1b5 Bc8d7 7. Bb5xc6 Bd7xc6 8. d2d3 0-0 9. 0-0 a7a6 10. Nb1d2 b7b5 11. b2b4 Bc6b7 12. d3d4 e5xd4 13. c3xd4 Ra8c8 14. a2a4 c7c6 15. Nd2b3 Rf8e8 16. a4xb5 c6xb5 17. Qc2b2 Bb7xe4 18. Nb3d2 Rc8c2 19. Qb2a3 Qd8a8 20. Nd2xe4 Nf6xe4 21. Qa3d3 Rc2c3 22. Qd3e2 Be7f6 23. Qe2b2 Qa8d5 24. Bc1e3 Rc3b3 25. Qb2c1 Rb3xb4 26. Ra1b1 Rb4xb1 27. Qc1xb1 Ne4c3 28. Qb1c2 Nc3a4 29. Nf3d2 Bf6xd4 30. Nd2e4 Qd5xe4 31. Qc2c1 Bd4xe3 32. f2xe3 Qe4xe3 33. Qc1xe3 Re8xe3 

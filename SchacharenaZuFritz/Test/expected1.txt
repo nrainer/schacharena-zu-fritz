@@ -1,0 +1,9 @@
+﻿[Event "Partie"]
+[Site "www.schacharena.de"]
+[Date "????.??.??"]
+[Round "?"]
+[White "lomarie"]
+[Black "windstaerke1111"]
+[Result "*"]
+
+1. Ng1f3 d7d5 2. d2d4 c7c6 3. e2e3 Ng8f6 4. Bf1e2 e7e6 5. a2a3 Bf8d6 6. 0-0 0-0 7. c2c4 d5xc4 8. Be2xc4 b7b5 9. Bc4d3 Qd8c7 10. g2g3 Bc8b7 11. b2b4 c6c5 12. b4xc5 Bd6e7 13. Bd3xb5 Nf6e4 14. Bb5d3 f7f5 15. Qd1c2 Bb7c6 16. Nf3e5 Nb8d7 17. Ne5xc6 Qc7xc6 18. Bd3xe4 f5xe4 19. Nb1d2 Nd7f6 20. Bc1b2 Qc6d5 21. Nd2c4 Ra8b8 22. Nc4e5 Rb8c8 23. Qc2a4 Rc8c7 24. Bb2c3 Rf8c8 25. Bc3a5 Rc7b7 26. c5c6 Rb7b2 27. c6c7 Be7d6 28. Ne5c4 Rb2b7 29. Nc4xd6 Qd5xd6 30. Rf1c1 Nf6d5 31. Rc1c6 Qd6e7 32. Ra1c1 Nd5xc7 33. Ba5xc7 Rb7xc7 34. Rc6xc7 Rc8xc7 35. Rc1xc7 Qe7xc7 36. Kg1g2 h7h6 37. Qa4e8 Kg8h7 38. Qe8xe6 Qc7b7 39. Qe6f5 

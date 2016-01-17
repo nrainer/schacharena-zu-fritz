@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ClassDiagram Zoom="1" MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="SchacharenaZuFritz.View.MainForm" Collapsed="False">
+    <Position X="0.5" Y="0.5" Width="2.410807" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SchacharenaZuFritz.Logic.Abstract.IllegalInputSequenceException" Collapsed="False">
+    <Position X="0.5" Y="6.9" Width="3.695143" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Interface Name="SchacharenaZuFritz.Logic.Abstract.Chess.IMove" Collapsed="False">
+    <Position X="0.5" Y="8.3" Width="1.186051" />
+    <Compartments />
+  </Interface>
+  <Class Name="SchacharenaZuFritz.Persistence.Save" Collapsed="False">
+    <Position X="0.5" Y="9.3" Width="1.361188" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SchacharenaZuFritz.Logic.Impl.Chess.Castling" Collapsed="False">
+    <Position X="0.5" Y="10.7" Width="1.399538" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Interface Name="SchacharenaZuFritz.Logic.Abstract.IConverter" Collapsed="False">
+    <Position X="0.5" Y="12.6" Width="1.402199" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Interface>
+  <Class Name="SchacharenaZuFritz.Program" Collapsed="False">
+    <Position X="0.5" Y="14.5" Width="2.266876" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SchacharenaZuFritz.Logic.Impl.SchacharenaToFritz" Collapsed="False">
+    <Position X="0.5" Y="15.9" Width="2.61985" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SchacharenaZuFritz.Properties.Settings" Collapsed="False">
+    <Position X="0.5" Y="19.3" Width="1.828166" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Class Name="SchacharenaZuFritz.Properties.Resources" Collapsed="False">
+    <Position X="0.5" Y="21" Width="2.472174" />
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="False" />
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Class>
+  <Struct Name="SchacharenaZuFritz.Logic.Impl.Chess.Move" Collapsed="False">
+    <Position X="0.5" Y="24.2" Width="1.827023" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+      <Compartment Name="Nested Types" Collapsed="False" />
+    </Compartments>
+  </Struct>
+  <Struct Name="SchacharenaZuFritz.Logic.Impl.Chess.Position" Collapsed="False">
+    <Position X="0.5" Y="29.1" Width="1.683024" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="False" />
+      <Compartment Name="Fields" Collapsed="False" />
+    </Compartments>
+  </Struct>
+</ClassDiagram>
