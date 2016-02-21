@@ -3,7 +3,7 @@ using System.IO;
 using System.Reflection;
 
 using NUnit.Framework;
-using SchacharenaZuFritz.Logic.Impl;
+using SchacharenaZuFritz.Logic.Converter;
 
 namespace SchacharenaZuFritz.Test
 {
@@ -28,6 +28,12 @@ namespace SchacharenaZuFritz.Test
 			TestInternal(3);
 		}
 		
+		[Test]
+		public void Test4()
+		{
+			TestInternal(4);
+		}
+		
 		private void TestInternal(int fileIndex)
 		{
 			string folder = "Test/";
@@ -38,8 +44,7 @@ namespace SchacharenaZuFritz.Test
 			string expectedPath = folder + "expected" + fileIndex + ".txt";
 			string expected = File.ReadAllText(expectedPath);
 			
-			SchacharenaToFritz converter = new SchacharenaToFritz();
-			string actual = converter.Convert(input);
+			string actual = ConverterUtility.ConvertFromSchacharenaToFritz(input);
 			Console.WriteLine(actual);
 			Assert.AreEqual(expected.Trim(), actual.Trim());
 		}

@@ -1,41 +1,37 @@
 ﻿ nachtfalke [1367] 	windstaerke1111 [1393]
+Ergebnis: 		0 - 1    Modus Variante 	
+Art Ende:
+	  	aufgegeben
+Eröffnung: 		Philidor-Verteidigung
+Eco-Code:
+		C41 		  	 
+Partiebeginn:
+		05.06.15 20:41 Uhr 	
+Uhr:
+		20 Minuten 0 Sek.
+Partieende:
+		05.06.15 21:03 Uhr 	
+Spiel:
+	  	klassisch
+Partielänge:
+		21 Minuten 34 Sek. 	
+Züge:
+	  	33
 		am Zug 	
 			
 	Brett drehen
 Variantenbrett
 Export to PGN (download)
+Spielverlauf:
      
-Zug 	Figur 	Feld 	  	Figur 	Feld
-1 	Bauer	e2 - e4 		Bauer	e7 - e5
-2 	Springer	g1 - f3 		Bauer	d7 - d6
-3 	Bauer	h2 - h3 		Springer	b8 - c6
-4 	Bauer	c2 - c3 		Springer	g8 - f6
-5 	Dame 	d1 - c2 		Läufer	f8 - e7
-6 	Läufer	f1 - b5 		Läufer	c8 - d7
-7 	Läufer	b5 x c6 		Läufer	d7 x c6
-8 	Bauer	d2 - d3 		König	0 - 0
-9 	König	0 - 0 		Bauer	a7 - a6
-10 	Springer	b1 - d2 		Bauer	b7 - b5
-11 	Bauer	b2 - b4 		Läufer	c6 - b7
-12 	Bauer	d3 - d4 		Bauer	e5 x d4
-13 	Bauer	c3 x d4 		Turm	a8 - c8
-14 	Bauer	a2 - a4 		Bauer	c7 - c6
-15 	Springer	d2 - b3 		Turm	f8 - e8
-16 	Bauer	a4 x b5 		Bauer	c6 x b5
-17 	Dame 	c2 - b2 		Läufer	b7 x e4
-18 	Springer	b3 - d2 		Turm	c8 - c2
-19 	Dame 	b2 - a3 		Dame	d8 - a8
-20 	Springer	d2 x e4 		Springer	f6 x e4
-21 	Dame 	a3 - d3 		Turm	c2 - c3
-22 	Dame 	d3 - e2 		Läufer	e7 - f6
-23 	Dame 	e2 - b2 		Dame	a8 - d5
-24 	Läufer	c1 - e3 		Turm	c3 - b3
-25 	Dame 	b2 - c1 		Turm	b3 x b4
-26 	Turm	a1 - b1 		Turm	b4 x b1
-27 	Dame 	c1 x b1 		Springer	e4 - c3
-28 	Dame 	b1 - c2 		Springer	c3 - a4
-29 	Springer	f3 - d2 		Läufer	f6 x d4
-30 	Springer	d2 - e4 		Dame	d5 x e4
-31 	Dame 	c2 - c1 		Läufer	d4 x e3
-32 	Bauer	f2 x e3 		Dame	e4 x e3 +
-33 	Dame 	c1 x e3 		Turm	e8 x e3 
+1.e2 - e4 e7 - e5 2.♘g1 - f3 d7 - d6 3.h2 - h3 ♞b8 - c6
+4.c2 - c3 ♞g8 - f6 5.♕d1 - c2 ♝f8 - e7 6.♗f1 - b5 ♝c8 - d7
+7.♗b5 x c6 ♝d7 x c6 8.d2 - d3 ♚0 - 0 9.♔0 - 0 a7 - a6
+10.♘b1 - d2 b7 - b5 11.b2 - b4 ♝c6 - b7 12.d3 - d4 e5 x d4
+13.c3 x d4 ♜a8 - c8 14.a2 - a4 c7 - c6 15.♘d2 - b3 ♜f8 - e8
+16.a4 x b5 c6 x b5 17.♕c2 - b2 ♝b7 x e4 18.♘b3 - d2 ♜c8 - c2
+19.♕b2 - a3 ♛d8 - a8 20.♘d2 x e4 ♞f6 x e4 21.♕a3 - d3 ♜c2 - c3
+22.♕d3 - e2 ♝e7 - f6 23.♕e2 - b2 ♛a8 - d5 24.♗c1 - e3 ♜c3 - b3
+25.♕b2 - c1 ♜b3 x b4 26.♖a1 - b1 ♜b4 x b1 27.♕c1 x b1 ♞e4 - c3
+28.♕b1 - c2 ♞c3 - a4 29.♘f3 - d2 ♝f6 x d4 30.♘d2 - e4 ♛d5 x e4
+31.♕c2 - c1 ♝d4 x e3 32.f2 x e3 ♛e4 x e3+ 33.♕c1 x e3 ♜e8 x e3

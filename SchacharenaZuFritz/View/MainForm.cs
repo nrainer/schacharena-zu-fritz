@@ -1,30 +1,30 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using SchacharenaZuFritz.Logic.Abstract;
-using SchacharenaZuFritz.Logic.Impl;
+
+using SchacharenaZuFritz.Logic.Converter;
+using SchacharenaZuFritz.Logic.Exceptions;
+using SchacharenaZuFritz.Logic.Game;
 using SchacharenaZuFritz.Persistence;
 
 namespace SchacharenaZuFritz.View
 {
     public partial class MainForm : Form
     {
-        public const double VERSION = 1.1;
+        public const double VERSION = 2.0;
 
-        private IConverter converter;
         private TextBox mouseOverTextBox;
 
         public MainForm()
         {
             InitializeComponent();
 
-            this.converter = new SchacharenaToFritz();
             this.mouseOverTextBox = null;
         }
 
         private void btn_Convert_Click(object sender, EventArgs e)
         {
-            Convert();
+            ConvertAndSetResult();
         }
 
         private void tbx_Schacharena_TextChanged(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace SchacharenaZuFritz.View
             {
                 try
                 {
-                    Save.SaveToFile(saveFileDialog1.FileName, tbx_Fritz.Text);
+                    SaveUtility.SaveToFile(saveFileDialog1.FileName, tbx_Fritz.Text);
                 }
                 catch (Exception ex)
                 {
@@ -105,31 +105,46 @@ namespace SchacharenaZuFritz.View
         private void btn_ConvertAfterPasting_Click(object sender, EventArgs e)
         {
             PasteFromClipBoard(tbx_Schacharena);
-            Convert();
+            ConvertAndSetResult();
             CopyToClipBoard(tbx_Fritz);
         }
 
-        private void Convert()
+        private void ConvertAndSetResult()
         {
             tbx_Fritz.Clear();
 
+            string input = tbx_Schacharena.Text;
+            
+            if (input.Length == 0)
+            {
+            	return;
+            }
+            
             try
             {
-                string output = converter.Convert(tbx_Schacharena.Text);
-
-                tbx_Fritz.Text = output;
+                tbx_Fritz.Text = ConverterUtility.ConvertFromSchacharenaToFritz(input);
                 tbx_Fritz.BackColor = SystemColors.Control;
             }
-            catch (Exception ex)
+            catch (ConverterException ex)
             {
-                tbx_Fritz.Text = ex.Message;
+                tbx_Fritz.Text = ex.Message + Environment.NewLine + Environment.NewLine 
+                	+ ex.StackTrace + Environment.NewLine + Environment.NewLine 
+                	+ "In SchacharenaZuFritz Version " + VERSION + Environment.NewLine + Environment.NewLine
+                	+ "Input was:" + Environment.NewLine + input;
                 tbx_Fritz.BackColor = Color.Tomato;
             }
         }
 
         private void PasteFromClipBoard(TextBox destination)
         {
-            destination.Text = Clipboard.GetText();
+        	string text = Clipboard.GetText();
+        		
+        	if (text == null)
+        	{
+        		text = string.Empty;
+        	}
+        		
+            destination.Text = text;
         }
 
         private void CopyToClipBoard(TextBox source)

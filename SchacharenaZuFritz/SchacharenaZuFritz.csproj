@@ -84,13 +84,26 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Logic\Abstract\Chess\IMove.cs" />
-    <Compile Include="Logic\Impl\Chess\Move.cs" />
-    <Compile Include="Logic\Impl\Chess\Castling.cs" />
-    <Compile Include="Logic\Abstract\IConverter.cs" />
-    <Compile Include="Logic\Abstract\IllegalInputSequenceException.cs" />
-    <Compile Include="Logic\Impl\SchacharenaToFritz.cs" />
-    <Compile Include="Persistence\Save.cs" />
+    <Compile Include="Logic\Board\ChessBoard.cs" />
+    <Compile Include="Logic\Board\BoardPosition.cs" />
+    <Compile Include="Logic\Converter\ConverterUtility.cs" />
+    <Compile Include="Logic\Converter\Fritz\FritzOutputGeneratorV1.cs" />
+    <Compile Include="Logic\Converter\IChessParser.cs" />
+    <Compile Include="Logic\Converter\ConverterFactory.cs" />
+    <Compile Include="Logic\Converter\IChessOutputGenerator.cs" />
+    <Compile Include="Logic\Converter\Schacharena\SchacharenaParserV2.cs" />
+    <Compile Include="Logic\Converter\Schacharena\AbstractSchacharenaParser.cs" />
+    <Compile Include="Logic\Exceptions\ConverterException.cs" />
+    <Compile Include="Logic\Game\ChessGame.cs" />
+    <Compile Include="Logic\Board\Man.cs" />
+    <Compile Include="Logic\Board\ManType.cs" />
+    <Compile Include="Logic\Board\Player.cs" />
+    <Compile Include="Logic\Moves\AbstractMove.cs" />
+    <Compile Include="Logic\Moves\Castling.cs" />
+    <Compile Include="Logic\Moves\Move.cs" />
+    <Compile Include="Logic\Moves\IMove.cs" />
+    <Compile Include="Persistence\SaveUtility.cs" />
+    <Compile Include="Test\ChessBoardTest.cs" />
     <Compile Include="Test\ParseTest.cs" />
     <Compile Include="View\MainForm.cs">
       <SubType>Form</SubType>
@@ -123,7 +136,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="SchacharenaZuFritz_TemporaryKey.pfx" />
     <None Include="Test\expected1.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -131,6 +143,9 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Test\expected3.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Test\expected4.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Include="Test\input1.txt">
@@ -142,10 +157,12 @@
     <None Include="Test\input3.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Test\input4.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Content Include="chess_board.ico" />
-    <Content Include="SchacharenaZuFritz.cd" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -175,8 +192,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Logic\Board" />
+    <Folder Include="Logic\Converter\Fritz" />
+    <Folder Include="Logic\Converter\Schacharena" />
+    <Folder Include="Logic\Exceptions" />
+    <Folder Include="Logic\Moves" />
+    <Folder Include="Logic\Converter" />
+    <Folder Include="Logic\Game" />
     <Folder Include="Test" />
-    <Folder Include="View\Chess\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

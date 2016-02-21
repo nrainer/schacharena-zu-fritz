@@ -1,47 +1,39 @@
 ﻿ lomarie [1330] 	windstaerke1111 [1404]
+Ergebnis: 		1 - 0    Modus Variante 	
+Art Ende:
+	  	aufgegeben
+Eröffnung: 		Damenbauernspiel (ohne 2. ...Sf6)
+Eco-Code:
+		D02 		  	 
+Partiebeginn:
+		07.07.15 21:47 Uhr 	
+Uhr:
+		15 Minuten 0 Sek.
+Partieende:
+		07.07.15 22:04 Uhr 	
+Spiel:
+	  	klassisch
+Partielänge:
+		17 Minuten 36 Sek. 	
+Züge:
+	  	39
 		am Zug 	
 			
 	Brett drehen
 Variantenbrett
 Export to PGN (download)
+Spielverlauf:
      
-Zug 	Figur 	Feld 	  	Figur 	Feld
-1 	Springer	g1 - f3 		Bauer	d7 - d5
-2 	Bauer	d2 - d4 		Bauer	c7 - c6
-3 	Bauer	e2 - e3 		Springer	g8 - f6
-4 	Läufer	f1 - e2 		Bauer	e7 - e6
-5 	Bauer	a2 - a3 		Läufer	f8 - d6
-6 	König	0 - 0 		König	0 - 0
-7 	Bauer	c2 - c4 		Bauer	d5 x c4
-8 	Läufer	e2 x c4 		Bauer	b7 - b5
-9 	Läufer	c4 - d3 		Dame	d8 - c7
-10 	Bauer	g2 - g3 		Läufer	c8 - b7
-11 	Bauer	b2 - b4 		Bauer	c6 - c5
-12 	Bauer	b4 x c5 		Läufer	d6 - e7
-13 	Läufer	d3 x b5 		Springer	f6 - e4
-14 	Läufer	b5 - d3 		Bauer	f7 - f5
-15 	Dame 	d1 - c2 		Läufer	b7 - c6
-16 	Springer	f3 - e5 		Springer	b8 - d7
-17 	Springer	e5 x c6 		Dame	c7 x c6
-18 	Läufer	d3 x e4 		Bauer	f5 x e4
-19 	Springer	b1 - d2 		Springer	d7 - f6
-20 	Läufer	c1 - b2 		Dame	c6 - d5
-21 	Springer	d2 - c4 		Turm	a8 - b8
-22 	Springer	c4 - e5 		Turm	b8 - c8
-23 	Dame 	c2 - a4 		Turm	c8 - c7
-24 	Läufer	b2 - c3 		Turm	f8 - c8
-25 	Läufer	c3 - a5 		Turm	c7 - b7
-26 	Bauer	c5 - c6 		Turm	b7 - b2
-27 	Bauer	c6 - c7 		Läufer	e7 - d6
-28 	Springer	e5 - c4 		Turm	b2 - b7
-29 	Springer	c4 x d6 		Dame	d5 x d6
-30 	Turm	f1 - c1 		Springer	f6 - d5
-31 	Turm	c1 - c6 		Dame	d6 - e7
-32 	Turm	a1 - c1 		Springer	d5 x c7
-33 	Läufer	a5 x c7 		Turm	b7 x c7
-34 	Turm	c6 x c7 		Turm	c8 x c7
-35 	Turm	c1 x c7 		Dame	e7 x c7
-36 	König	g1 - g2 		Bauer	h7 - h6
-37 	Dame 	a4 - e8 + 		König	g8 - h7
-38 	Dame 	e8 x e6 		Dame	c7 - b7
-39 	Dame 	e6 - f5 + 		 	 
+1.♘g1 - f3 d7 - d5 2.d2 - d4 c7 - c6 3.e2 - e3 ♞g8 - f6
+4.♗f1 - e2 e7 - e6 5.a2 - a3 ♝f8 - d6 6.♔0 - 0 ♚0 - 0
+7.c2 - c4 d5 x c4 8.♗e2 x c4 b7 - b5 9.♗c4 - d3 ♛d8 - c7
+10.g2 - g3 ♝c8 - b7 11.b2 - b4 c6 - c5 12.b4 x c5 ♝d6 - e7
+13.♗d3 x b5 ♞f6 - e4 14.♗b5 - d3 f7 - f5 15.♕d1 - c2 ♝b7 - c6
+16.♘f3 - e5 ♞b8 - d7 17.♘e5 x c6 ♛c7 x c6 18.♗d3 x e4 f5 x e4
+19.♘b1 - d2 ♞d7 - f6 20.♗c1 - b2 ♛c6 - d5 21.♘d2 - c4 ♜a8 - b8
+22.♘c4 - e5 ♜b8 - c8 23.♕c2 - a4 ♜c8 - c7 24.♗b2 - c3 ♜f8 - c8
+25.♗c3 - a5 ♜c7 - b7 26.c5 - c6 ♜b7 - b2 27.c6 - c7 ♝e7 - d6
+28.♘e5 - c4 ♜b2 - b7 29.♘c4 x d6 ♛d5 x d6 30.♖f1 - c1 ♞f6 - d5
+31.♖c1 - c6 ♛d6 - e7 32.♖a1 - c1 ♞d5 x c7 33.♗a5 x c7 ♜b7 x c7
+34.♖c6 x c7 ♜c8 x c7 35.♖c1 x c7 ♛e7 x c7 36.♔g1 - g2 h7 - h6
+37.♕a4 - e8+ ♚g8 - h7 38.♕e8 x e6 ♛c7 - b7 39.♕e6 - f5+

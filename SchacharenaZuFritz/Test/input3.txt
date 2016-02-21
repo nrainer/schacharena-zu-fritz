@@ -1,43 +1,32 @@
-﻿ kreideturm [1529] 	Scharrelaar [1571]
+﻿ windstaerke1111 [1398] 	kreideturm [1541]
+Ergebnis: 		   Modus Variante 	
+Art Ende:
+	  	
+Eröffnung: 		
+Eco-Code:
+				  	 
+Partiebeginn:
+		27.01.16 23:17 Uhr 	
+Uhr:
+		
+Partieende:
+		01.01.70 01:00 Uhr 	
+Spiel:
+	  	
+Partielänge:
+		1 Stunden 42 Minuten 	
+Züge:
+	  	16
 		am Zug 	
 			
-	Brett drehen
+	zurück zum Brett
 Variantenbrett
-Export to PGN (download)
+Brett gedreht
+Spielverlauf:
      
-Zug 	Figur 	Feld 	  	Figur 	Feld
-1 	Bauer	e2 - e4 		Bauer	d7 - d6
-2 	Springer	g1 - f3 		Bauer	c7 - c6
-3 	Bauer	d2 - d4 		Springer	g8 - f6
-4 	Springer	b1 - c3 		Läufer	c8 - g4
-5 	Bauer	h2 - h3 		Läufer	g4 - h5
-6 	Läufer	c1 - e3 		Springer	b8 - d7
-7 	Bauer	g2 - g4 		Läufer	h5 - g6
-8 	Läufer	f1 - d3 		Bauer	e7 - e5
-9 	Bauer	d4 x e5 		Springer	d7 x e5
-10 	Springer	f3 - h4 		Springer	f6 x e4
-11 	Springer	c3 x e4 		Läufer	g6 x e4
-12 	Läufer	d3 x e4 		Dame	d8 x h4
-13 	Dame 	d1 - e2 		Dame	h4 - e7
-14 	König	0 - 0 - 0 		Bauer	g7 - g6
-15 	Bauer	f2 - f4 		Springer	e5 - d7
-16 	Läufer	e4 - g2 		Läufer	f8 - g7
-17 	Dame 	e2 - d3 		König	0 - 0
-18 	Turm	h1 - e1 		Dame	e7 - f6
-19 	Bauer	c2 - c3 		Springer	d7 - c5
-20 	Dame 	d3 x d6 		Dame	f6 x d6
-21 	Turm	d1 x d6 		Springer	c5 - e6
-22 	Bauer	f4 - f5 		Springer	e6 - c7
-23 	Bauer	f5 - f6 		Läufer	g7 x f6
-24 	Turm	d6 x f6 		Springer	c7 - d5
-25 	Läufer	g2 x d5 		Bauer	c6 x d5
-26 	Turm	f6 - d6 		Bauer	b7 - b6
-27 	Turm	d6 x d5 		Turm	a8 - e8
-28 	Läufer	e3 - f2 		Turm	e8 - c8
-29 	Läufer	f2 - d4 		Bauer	f7 - f5
-30 	Turm	d5 - d7 		Turm	f8 - f7
-31 	Turm	e1 - e7 		Turm	c8 - f8
-32 	Bauer	g4 x f5 		Bauer	g6 x f5
-33 	Turm	d7 x a7 		Bauer	f5 - f4
-34 	König	c1 - d1 		Bauer	f4 - f3
-35 	König	d1 - e1 		 	 
+1.e2 - e4 c7 - c5 2.e4 - e5 ♞b8 - c6 3.e5 - e6 f7 - f6
+4.e6 x d7+ ♝c8 x d7 5.h2 - h4 g7 - g5 6.h4 x g5 ♛d8 - c7
+7.g5 - g6 ♚0 - 0 - 0 8.g6 - g7 h7 - h5 9.g7 x h8 L ♝f8 - g7
+10.a2 - a4 b7 - b5 11.a4 x b5 ♝d7 - e6 12.b5 - b6 ♚c8 - d7
+13.b6 x a7 ♚d7 - e8 14.a7 - a8 T ♛c7 - h2 15.♖a8 x d8+ ♚e8 - f7
+16.b2 - b4
