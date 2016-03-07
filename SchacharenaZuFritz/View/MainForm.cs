@@ -149,7 +149,16 @@ namespace SchacharenaZuFritz.View
 
         private void CopyToClipBoard(TextBox source)
         {
-            Clipboard.SetText(source.Text);
+        	string text = source.Text;
+        	
+        	if (text.Length == 0)
+        	{
+        		Clipboard.Clear();
+        	}
+        	else
+        	{
+            	Clipboard.SetText(source.Text, TextDataFormat.Text);
+        	}
         }
 
         private void btn_do_all_Click(object sender, EventArgs e)
