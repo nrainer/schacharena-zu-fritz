@@ -34,9 +34,15 @@ namespace SchacharenaZuFritz.Test
 			TestInternal(4);
 		}
 		
+		[Test]
+		public void Test5()
+		{
+			TestInternal(5);
+		}
+		
 		private void TestInternal(int fileIndex)
 		{
-			string folder = "Test/";
+			const string folder = "Test/";
 			
 			string inputPath = folder + "input" + fileIndex + ".txt";
 			string input = File.ReadAllText(inputPath);

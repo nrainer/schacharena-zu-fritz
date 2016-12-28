@@ -97,11 +97,6 @@ namespace SchacharenaZuFritz.Logic.Converter.Schacharena
 		{
 			int gameContentBeginIndex = findGameContentBeginIndex();
 			
-			if (gameContentBeginIndex == -1)
-			{
-				throw new ConverterException("Begin of game content not found.");
-			}
-			
 			string gameContent = this.rawInput.Substring(gameContentBeginIndex);
 			gameContent = gameContent.Replace(" - ", "-");
 			gameContent = gameContent.Replace(" x ", "x");
@@ -110,7 +105,18 @@ namespace SchacharenaZuFritz.Logic.Converter.Schacharena
 		
 		protected int findGameContentBeginIndex()
 		{
-			return this.rawInput.IndexOf("\n1.", StringComparison.InvariantCulture);
+			int gameContentBeginIndex = this.rawInput.IndexOf("\n1.", StringComparison.InvariantCulture);
+			
+			if (gameContentBeginIndex == -1) {
+				gameContentBeginIndex = this.rawInput.IndexOf("1.", StringComparison.InvariantCulture);
+			}
+			
+			if (gameContentBeginIndex >= 0)
+			{
+				return gameContentBeginIndex;
+			}
+			
+			throw new ConverterException("Begin of game content not found.");
 		}
 		
 		protected void ParseLine(string line, int lineCount)
