@@ -10,7 +10,7 @@ namespace SchacharenaZuFritz.Logic.Game
 		private string dateText = "?";
 		private string playerName1 = "Player 1";
 		private string playerName2 = "Player 2";
-		private List<IMove> moves;
+		private readonly List<IMove> moves;
 		
 		public ChessGame()
 		{

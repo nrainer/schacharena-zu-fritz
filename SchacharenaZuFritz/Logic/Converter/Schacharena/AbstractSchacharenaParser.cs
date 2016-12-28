@@ -89,13 +89,13 @@ namespace SchacharenaZuFritz.Logic.Converter.Schacharena
 		
 		protected string[] SplitIntoGameContentRows()
 		{
-			string gameContent = getCleanedGameContent();
+			string gameContent = GetCleanedGameContent();
 			return Regex.Split(gameContent, "\\d+\\.");
 		}
 		
-		protected string getCleanedGameContent()
+		protected string GetCleanedGameContent()
 		{
-			int gameContentBeginIndex = findGameContentBeginIndex();
+			int gameContentBeginIndex = FindGameContentBeginIndex();
 			
 			string gameContent = this.rawInput.Substring(gameContentBeginIndex);
 			gameContent = gameContent.Replace(" - ", "-");
@@ -103,7 +103,7 @@ namespace SchacharenaZuFritz.Logic.Converter.Schacharena
 			return gameContent;
 		}
 		
-		protected int findGameContentBeginIndex()
+		protected int FindGameContentBeginIndex()
 		{
 			int gameContentBeginIndex = this.rawInput.IndexOf("\n1.", StringComparison.InvariantCulture);
 			
@@ -180,19 +180,19 @@ namespace SchacharenaZuFritz.Logic.Converter.Schacharena
 			
 			if (IsLongCastling(move))
 			{
-				handleCastling(player, true);
+				HandleCastling(player, true);
 			}
 			else if (IsShortCastling(move))
 			{
-				handleCastling(player, false);
+				HandleCastling(player, false);
 			}
 			else
 			{
-				handleNonCastlingMove(player, move);
+				HandleNonCastlingMove(player, move);
 			}
 		}
 
-		protected void handleCastling(Player player, bool longCastling)
+		protected void HandleCastling(Player player, bool longCastling)
 		{
 			Castling castling = new Castling(player, longCastling);
 			this.game.AddMove(castling);
@@ -209,7 +209,7 @@ namespace SchacharenaZuFritz.Logic.Converter.Schacharena
 			return move.Contains(PATTERN_SHORT_CASTLING);
 		}
 		
-		protected void handleNonCastlingMove(Player player, string moveString)
+		protected void HandleNonCastlingMove(Player player, string moveString)
 		{
 			BoardPosition fromPosition = ParsePosition(moveString, 0);
 			BoardPosition toPosition = ParsePosition(moveString, 1);

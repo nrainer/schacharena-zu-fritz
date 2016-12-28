@@ -6,7 +6,7 @@ using SchacharenaZuFritz.Logic.Game;
 
 namespace SchacharenaZuFritz.Logic.Converter
 {
-	public class ConverterFactory
+	public static class ConverterFactory
 	{
 		public static IChessParser CreateSchacharenaParser(string input)
 		{
