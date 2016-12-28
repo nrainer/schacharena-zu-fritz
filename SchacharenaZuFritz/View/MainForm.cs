@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Drawing;
+using System.Reflection;
 using System.Windows.Forms;
 
 using SchacharenaZuFritz.Logic.Converter;
@@ -11,8 +12,6 @@ namespace SchacharenaZuFritz.View
 {
     public partial class MainForm : Form
     {
-        public const double VERSION = 2.0;
-
         private TextBox mouseOverTextBox;
 
         public MainForm()
@@ -20,6 +19,14 @@ namespace SchacharenaZuFritz.View
             InitializeComponent();
 
             this.mouseOverTextBox = null;
+        }
+        
+        public static string Version
+        {
+        	get
+        	{
+        		return Assembly.GetExecutingAssembly().GetName().Version.ToString();
+        	}
         }
 
         private void btn_Convert_Click(object sender, EventArgs e)
@@ -98,7 +105,7 @@ namespace SchacharenaZuFritz.View
         {
             if (e.KeyData == Keys.F1)
             {
-                MessageBox.Show("SchacharenaZuFritz" + Environment.NewLine + "Version " + VERSION);
+                MessageBox.Show("SchacharenaZuFritz" + Environment.NewLine + "Version " + Version);
             }
         }
 
@@ -129,7 +136,7 @@ namespace SchacharenaZuFritz.View
             {
                 tbx_Fritz.Text = ex.Message + Environment.NewLine + Environment.NewLine 
                 	+ ex.StackTrace + Environment.NewLine + Environment.NewLine 
-                	+ "In SchacharenaZuFritz Version " + VERSION + Environment.NewLine + Environment.NewLine
+                	+ "In SchacharenaZuFritz " + Version + Environment.NewLine + Environment.NewLine
                 	+ "Input was:" + Environment.NewLine + input;
                 tbx_Fritz.BackColor = Color.Tomato;
             }
