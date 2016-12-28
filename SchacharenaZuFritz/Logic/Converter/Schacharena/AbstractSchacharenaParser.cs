@@ -110,7 +110,7 @@ namespace SchacharenaZuFritz.Logic.Converter.Schacharena
 		
 		protected int findGameContentBeginIndex()
 		{
-			return this.rawInput.IndexOf("\n1.");
+			return this.rawInput.IndexOf("\n1.", StringComparison.InvariantCulture);
 		}
 		
 		protected void ParseLine(string line, int lineCount)
