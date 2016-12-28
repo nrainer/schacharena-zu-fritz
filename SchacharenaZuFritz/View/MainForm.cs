@@ -127,6 +127,11 @@ namespace SchacharenaZuFritz.View
             	return;
             }
             
+            if (ProcessSpecialInput(input))
+            {
+            	return;
+            }
+            
             try
             {
                 tbx_Fritz.Text = ConverterUtility.ConvertFromSchacharenaToFritz(input);
@@ -142,6 +147,24 @@ namespace SchacharenaZuFritz.View
             }
         }
 
+        /// <summary>
+        /// Check if the input contains special commands.
+        /// </summary>
+        /// <param name="input">Input text</param>
+        /// <returns>True if special commands were found and the execution should not be executed</returns>
+		bool ProcessSpecialInput(string input)
+		{
+			string normalizedInput = input.Trim().ToLower();
+			
+			if (normalizedInput == "info")
+			{
+				MessageBox.Show("Version: " + Version + Environment.NewLine + "https://github.com/nrainer/schacharena-zu-fritz", "Info", MessageBoxButtons.OK);
+				return true;
+			}
+			
+			return false;
+		}
+		
         private void PasteFromClipBoard(TextBox destination)
         {
         	string text = Clipboard.GetText();
